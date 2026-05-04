@@ -1,5 +1,6 @@
 <template>
   <div>这里是App.vue</div>
+  <grammar_all></grammar_all>
   <TimeLine></TimeLine>
   <BiliHomePage></BiliHomePage>
   <hr />
@@ -18,14 +19,15 @@
 
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
-import base_know from './teaching/base_know.vue'
-import base_know_ref from './teaching/base_know_ref.vue'
+import base_know from './grammar/base_know.vue'
+import base_know_ref from './grammar/base_know_ref.vue'
 import DigitalClock from './components/DigitalClock.vue'
 import UserCard from './components/UserCard.vue'
 import MyChart from './components/MyChart.vue'
 import MyChartApi from './components/MyChartApi.vue'
 import BiliHomePage from './eleplus/layout/BiliHomePage.vue'
 import TimeLine from './components/TimeLine.vue'
+import grammar_all from './layout/grammar_all.vue'
 </script>
 html, body { margin: 0; padding: 0; font-family: 'Helvetica Neue', Helvetica, 'PingFang SC',
 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif; }
